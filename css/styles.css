@@ -1,0 +1,273 @@
+body {
+    font-family: "Montserrat";
+    font-weight: 400;
+}
+
+#title {
+    background-color: #ff4c68;
+}
+
+.font {
+    font-family: "Montserrat";
+    font-weight: 800;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+    width: 90%;
+}
+
+.fluid-container {
+    padding: 3% 15%;
+}
+
+/* Navigation bar */
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.nav-item {
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+
+/* Download buttons */
+
+.d-buttons {
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
+}
+
+/* Features section */
+
+.feature-name {
+    margin-top: 50px;
+    padding: 100px auto 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.feature-icon {
+    color: #ef8172;
+    font-size: 4.5rem;
+    align-items: center;
+    margin-bottom: 15px;
+
+}
+
+#feautres {
+    padding: 7% 15%;
+}
+
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+i:hover {
+    color: #ff4c68;
+}
+
+.p {
+    padding-top: 5%;
+    color: #8f8f8f;
+}
+
+
+/* testimonial section */
+
+
+#testimonials {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+
+}
+
+h2 {
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 1.5;
+
+}
+
+.testimonial-img {
+    width: 10%;
+    border-radius: 100%;
+    border: 1px;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-img {
+    width: 15%;
+    margin: 20px;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item {
+    height: 560px;
+}
+
+/* Pricing section */
+
+section.pricing {
+    background: #FFCAC8;
+    background: linear-gradient(to right, #ff4c68 #ef8172);
+}
+
+.pricing .card {
+    border: none;
+    border-radius: 1rem;
+    transition: all 0.2s;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.pricing hr {
+    margin: 1.5rem 0;
+}
+
+.pricing .card-title {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+}
+
+.pricing .card-price {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.pricing .card-price .period {
+    font-size: 0.8rem;
+}
+
+.pricing ul li {
+    margin-bottom: 1rem;
+}
+
+.pricing .text-muted {
+    opacity: 0.7;
+}
+
+.pricing .btn {
+    font-size: 80%;
+    border-radius: 5rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    padding: 1rem;
+    opacity: 0.7;
+    transition: all 0.2s;
+}
+
+/* Hover Effects on Card */
+
+@media (min-width: 992px) {
+    .pricing .card:hover {
+        margin-top: -.25rem;
+        margin-bottom: .25rem;
+        box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+    }
+
+    .pricing .card:hover .btn {
+        opacity: 1;
+    }
+}
+
+
+.price {
+    text-align: center;
+    padding-left: 8%;
+}
+
+/* Footer section */
+
+.footer-basic {
+    padding: 40px 0;
+    background-color: #ffffff;
+    color: #4b4c4d;
+}
+
+.footer-basic ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+.footer-basic li {
+    padding: 0 10px;
+}
+
+.footer-basic ul a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.footer-basic ul a:hover {
+    opacity: 1;
+}
+
+.footer-basic .social {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.footer-basic .social>a {
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    margin: 0 8px;
+    color: inherit;
+    opacity: 0.75;
+}
+
+.footer-basic .social>a:hover {
+    opacity: 0.9;
+}
+
+.footer-basic .copyright {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: #aaa;
+    margin-bottom: 0;
+}
+
+.footer-basic h3 {
+    text-align: center;
+}
